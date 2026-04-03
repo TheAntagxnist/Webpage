@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ako's Clothing Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd53') center/cover;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      background: #25D366;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 30px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      width: 220px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .card p {
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* WhatsApp floating button */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 15px 18px;
+      border-radius: 50%;
+      font-size: 22px;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ako's Clothing Store</h1>
+</header>
+
+<div class="hero">
+  <h2>Style That Speaks</h2>
+  <p>Fresh fits. Clean looks. Affordable fashion.</p>
+  <a href="https://wa.me/1234567890" class="btn">Order on WhatsApp</a>
+</div>
+
+<section>
+  <h2>Our Collection</h2>
+
+  <div class="products">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b">
+      <p>T-Shirts</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1516822003754-cca485356ecb">
+      <p>Jeans</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1520975916090-3105956dac38">
+      <p>Hoodies</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Visit Us</h2>
+  <p>Find us on Google Maps</p>
+  <a href="https://maps.app.goo.gl/kUDcnCx9suR3od9V8" class="btn">View Location</a>
+</section>
+
+<footer>
+  <p>© 2026 Ako's Clothing Store</p>
+</footer>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/18683374315" class="whatsapp">💬</a>
+
+</body>
+</html>
